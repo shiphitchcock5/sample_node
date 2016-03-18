@@ -5,6 +5,7 @@ language: node_js
 node_js:
   - 0.12
 
+
 build:
   pre_ci_boot:
     image_name: kanthchandra/sample_node
