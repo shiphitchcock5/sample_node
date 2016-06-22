@@ -17,6 +17,8 @@ build:
   post_ci:
     - ls -a
     - pwd
+    - docker build --rm -t=shiphitchcock2/sample-node2 .
+    - docker push shiphitchcock2/sample_node2
   
   cache: true
   
