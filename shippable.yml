@@ -23,4 +23,11 @@ build:
   
   cache_dir_list: 
     - $SHIPPABLE_BUILD_DIR/package.json
-
+    
+    
+integrations:
+  
+ hub:
+   - integrationName: "ship2dock"
+     type: docker
+     
