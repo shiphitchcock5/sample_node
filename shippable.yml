@@ -18,7 +18,7 @@ build:
     - ls -a
     - pwd
     - docker build --rm -t=shiphitchcock2/sample-node .
-    - docker push shiphitchcock2/sample_node
+    - docker push shiphitchcock2/sample-node
   
   cache: true
   
